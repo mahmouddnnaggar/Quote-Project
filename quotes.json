@@ -1,33 +1,33 @@
 [
   {
-    "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "text": "Never be limited by other people’s limited imaginations.",
     "id": "1",
-    "author": "Mahmoud El-Naggar"
+    "author": "Dr. Mae C. Jemison"
   },
   {
-    "text": "The way to get started is to quit talking and begin doing",
+    "text": "Only a life lived for others is a life worthwhile.",
     "id": "2",
-    "author": "Mohammed El-Naggar"
-  },
-  {
-    "text": "You must be the change you wish to see in the world.",
-    "id": "3",
-    "author": "Tamim El-Naggar"
-  },
-  {
-    "text": "Be yourself; everyone else is already taken.",
-    "id": "4",
-    "author": "El-Sayed El-Naggar"
+    "author": "Albert Einstein"
   },
   {
     "text": "The only impossible journey is the one you never begin.",
-    "id": "5",
-    "author": "Nourhan El-Naggar"
+    "id": "3",
+    "author": "Tony Robbins"
   },
   {
-    "text": "You only live once, but if you do it right, once is enough.",
+    "text": "If you fell down yesterday, stand up today.",
+    "id": "4",
+    "author": "H.G. Wells"
+  },
+  {
+    "text": "The time is always right to do what is right.",
+    "id": "5",
+    "author": "Martin Luther"
+  },
+  {
+    "text": "If you’re offered a seat on a rocket ship, don’t ask what seat. Just get on.",
     "id": "6",
-    "author": "Ahmed El-Naggar"
+    "author": "Sheryl Sandberg"
   },
   {
     "text": "Do not let making a living prevent you from making a life.",
@@ -35,13 +35,13 @@
     "author": "Mahmoud El-Naggar"
   },
   {
-    "text": "Do not let making a living prevent you from making a life.",
+    "text": "Winning isn’t everything, but wanting to win is.",
     "id": "8",
-    "author": "Mahmoud El-Naggar"
+    "author": "Vince Lombardi"
   },
   {
-    "text": "The only impossible journey is the one you never begin.",
+    "text": "You have within you, right now, everything you need to deal with whatever the world can throw at you.",
     "id": "9",
-    "author": "Mahmoud El-Naggar"
+    "author": "Brian Tracy"
   }
 ]
