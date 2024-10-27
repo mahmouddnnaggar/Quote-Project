@@ -1,0 +1,148 @@
+:root {
+  --border-radius: 6px;
+}
+::selection {
+  background-color: #2196f3;
+  color: #fff;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+}
+body > h1 {
+  color: #f1f1f1;
+  background-image: linear-gradient(to right, #67bb6a, #42a6f5, #f65f54);
+  text-align: center;
+  padding: 12px;
+  margin-block: 0 120px;
+}
+.app {
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 9px 0px #0000001f;
+  border-radius: var(--border-radius);
+}
+.container {
+  padding-inline: 20px;
+}
+.app .quote-author {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e91e63;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius);
+  color: #f1f1f1;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 2px 12px;
+  letter-spacing: 0.2px;
+  color: #f1f1f1;
+}
+.app .quote {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  color: #343434;
+  padding-inline: 35px;
+  margin-block: 10px 0;
+  padding-block: 15px 0px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+@media (max-width: 576px) {
+  .app .quote {
+    font-size: 20px;
+  }
+}
+.app .quote::before,
+.app .quote::after {
+  position: absolute;
+  font-size: 45px;
+  font-weight: 600;
+  color: #aaaaaa;
+  top: 5px;
+}
+.app .quote::before {
+  content: "“";
+  left: 0;
+}
+.app .quote::after {
+  content: "”";
+  right: 0;
+}
+.app .buttons {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.app .buttons::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background-color: #eee;
+}
+.app .buttons button {
+  flex-grow: 1;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1.6;
+  transition: opacity 0.3s;
+}
+.app .buttons button:hover {
+  opacity: 0.85;
+}
+.app .buttons button.generate-quote {
+  background-color: #4caf50;
+}
+.app .buttons button.auto-generate {
+  background-color: #2196f3;
+  transition: box-shadow 0.5s;
+}
+.app .buttons button.auto-generate.active {
+  box-shadow: 0 0 0px 2px #2195f38a;
+}
+.app .buttons button.stop-generate {
+  background-color: #f44336;
+}
+@media (max-width: 576px) {
+  .app .buttons button {
+    font-size: 14px;
+  }
+  .app .buttons button.generate-quote {
+    width: 45%;
+    order: 2;
+  }
+  .app .buttons button.stop-generate {
+    width: 45%;
+    order: 3;
+  }
+  .app .buttons button.auto-generate {
+    flex-basis: 100%;
+  }
+}
